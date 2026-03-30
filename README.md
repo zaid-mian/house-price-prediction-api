@@ -1,3 +1,4 @@
+
 # Boston House Price Prediction API
 
 This project provides a FastAPI-based REST API to predict house prices using a Linear Regression model trained on the Boston Housing dataset. It includes data validation with Pydantic and database persistence with SQLAlchemy.
@@ -80,3 +81,4 @@ The project dependencies are listed in `requirement.txt`:
 - **Automated Table Creation**: The API automatically creates the `predictions_boston` table in the database upon startup.
 - **Data Normalization**: Input features are scaled using the same `StandardScaler` used during training.
 - **Persistence**: Every prediction is logged in the database with a timestamp.
+
